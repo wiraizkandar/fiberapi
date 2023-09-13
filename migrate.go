@@ -4,7 +4,9 @@ import (
 	"database/sql"
 	"fmt"
 	"github.com/golang-migrate/migrate/v4"
+	"github.com/joho/godotenv"
 	"log"
+	"os"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/golang-migrate/migrate/v4/database/mysql"
@@ -12,8 +14,18 @@ import (
 )
 
 func main() {
+
+	godotenv.Load()
+
 	// Replace with your MySQL connection string
-	db, err := sql.Open("mysql", "root:wiraizkandar@tcp(127.0.0.1:3306)/godb")
+	db, err := sql.Open("mysql", fmt.Sprintf(
+		"%s:%s@tcp(%s:%s)/%s",
+		os.Getenv("DB_USERNAME"),
+		os.Getenv("DB_PASSWORD"),
+		os.Getenv("DB_HOST"),
+		os.Getenv("DB_PORT"),
+		os.Getenv("DB_DATABASE"),
+	))
 	if err != nil {
 		log.Fatal(err)
 	}
