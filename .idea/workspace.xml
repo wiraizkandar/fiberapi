@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5393d4f9-a7c7-43d1-a5c9-785bdbcd8e9c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/queue.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env-example" beforeDir="false" afterPath="$PROJECT_DIR$/.env-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/http/handlers/user/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/http/handlers/user/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/wiraizkandar/Documents/development/godev/fiberapi/certs&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.MySQL, MariaDB&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -58,6 +64,7 @@
       <recent name="$PROJECT_DIR$/certs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database" />
       <recent name="$PROJECT_DIR$/app/http/handlers/controller" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
